@@ -1,15 +1,15 @@
 *******************************************
-**    TO RUN: Click FizzBuzz.bat file.    **
+**    TO RUN: Click FizzBuzz.bat file.   **
 *******************************************
  
 *********************
 **   INSTRUCTIONS  **
 *********************
-1.If the value is a multiple of 3 then output the word ìFizzî 
+1.If the value is a multiple of 3 then output the word ‚ÄúFizz‚Äù 
 
-2.If the value is a multiple of 5 then output the word ìBuzzî 
+2.If the value is a multiple of 5 then output the word ‚ÄúBuzz‚Äù 
 
-3.If the value is divisible by both 3 and 5 then output the word ìFizzBuzzî 
+3.If the value is divisible by both 3 and 5 then output the word ‚ÄúFizzBuzz‚Äù 
 
 4.At the end of the run the program should display each division that was performed. See Sample Output below.
 
