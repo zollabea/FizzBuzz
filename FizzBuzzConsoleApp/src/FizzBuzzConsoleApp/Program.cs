@@ -18,7 +18,6 @@ namespace FizzBuzzConsoleApp
         Console.WriteLine("RESULTS KEY: Fizz = Divisible by 3, Buzz = Divisible by 5, FizzBuzz = Divisible by 3 and 5");
         Console.WriteLine("");
         Console.WriteLine("Please enter a list of integers, separated by commas, or 'q' to quit.");
-
         strUserInput = Console.ReadLine();
         while (strUserInput != "q")
         {
@@ -26,10 +25,7 @@ namespace FizzBuzzConsoleApp
           strUserInput = "";
           Console.WriteLine("Please enter another list of integers, or 'q' to quit.");       
           strUserInput = Console.ReadLine();
-        }
-
-             
-
+        }            
       } catch (Exception e) {
         Console.WriteLine("An error occurred: " + e);
       }
@@ -37,11 +33,9 @@ namespace FizzBuzzConsoleApp
 
     public static void playFizzBuzz(string strUserInput)
     {
-      //string strUserInput = "";
       System.Text.StringBuilder sbOutput = new System.Text.StringBuilder();
       string[] araUserInput;
 
-      //strUserInput = Console.ReadLine();
       araUserInput = strUserInput.Split(',');
 
       foreach (string strUserListItem in araUserInput)
@@ -86,9 +80,6 @@ namespace FizzBuzzConsoleApp
       }
 
       Console.WriteLine(sbOutput);
-      //Console.ReadLine();
-      //strUserInput = "";
-      //strUserInput = Console.ReadLine();
     }
 
     private static bool tryFizz(int userInputConvertedToInt)
