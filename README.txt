@@ -1,7 +1,7 @@
 
 *******************************************
 ** Fizz Buzz Program
-** C#.NET CORE CONSOLE APP        
+** C#.NET CONSOLE APP        
 ** AUTHOR: Zolla Michalak
 ** DATE: 11/8/2020
 *******************************************
