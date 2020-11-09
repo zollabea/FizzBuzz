@@ -3,6 +3,7 @@
 ** Fizz Buzz Program
 ** C#.NET CONSOLE APP        
 ** AUTHOR: Zolla Michalak
+** zollabea@hotmail.com, 540-679-6131
 ** DATE: 11/8/2020
 *******************************************
 
